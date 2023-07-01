@@ -13,6 +13,7 @@ import es419Messages from './messages/es_419.json';
 import frMessages from './messages/fr.json';
 import kokrMessages from './messages/ko_KR.json';
 import ptbrMessages from './messages/pt_BR.json';
+import ptptMessages from './messages/pt_PT.json';
 import zhcnMessages from './messages/zh_CN.json';
 
 const messages = {
@@ -29,6 +30,7 @@ const messages = {
   'zh-cn': zhcnMessages,
   'ko-kr': kokrMessages,
   'pt-br': ptbrMessages,
+  'pt-pt': ptptMessages,
 };
 
 export default messages;
