@@ -1,6 +1,19 @@
 $spacer: 1rem;
-$blue: #007db8;
+$blue: #0077D4;
 $white: #fff;
+
+// Bootstrap/Paragon compat: required when brand theme omits legacy Bootstrap vars
+// (see https://discuss.openedx.org/t/solved-frontend-build-failure-during-tutor-v19-to-v20-upgrade-indigo-plugin-issue/16904)
+$component-active-bg: $primary !default;
+$component-active-color: $white !default;
+$rounded-pill: 50rem !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
 
 @import './Menu/menu.scss';
 
